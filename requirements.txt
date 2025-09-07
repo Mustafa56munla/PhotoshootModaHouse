@@ -1,0 +1,21 @@
+# requirements.txt
+# Core
+streamlit>=1.34.0
+Pillow>=10.2.0
+numpy>=1.26.0
+opencv-python-headless>=4.9.0.80
+rembg>=2.0.0
+
+# API
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# (Optional next steps for generative features)
+# diffusers>=0.27.0
+# transformers>=4.40.0
+# accelerate>=0.29.0
+# torch -- install matching your CUDA: https://pytorch.org/get-started/locally/
+# controlnet-aux>=0.0.8
+# realesrgan>=0.3.0
+
+openai>=1.0.0
